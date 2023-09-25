@@ -6,6 +6,8 @@ body {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* reset */
 ul,
@@ -850,6 +852,11 @@ p {
   .portfolio-pictures {
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
 }
 /* Our Portfolio */
